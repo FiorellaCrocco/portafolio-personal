@@ -1,0 +1,18 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  text-align: center;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+body{
+  margin: 0;
+}
+
+.content-container {
+  flex: 1;
+  background-color: #00000040;
+}
+

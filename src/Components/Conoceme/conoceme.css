@@ -1,0 +1,143 @@
+.conoceme-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-container {
+  max-width: 100%; /* ajusta el ancho según tus necesidades */
+  background-color: #2ca6a4;
+  color: #424242;
+  padding: 20px;
+  font-weight: 450;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.text-container h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.conocimientos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #2ca6a4;
+  width: 80wh;
+  border-radius: 8px;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 5px;
+}
+
+.conoceme-footer ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.item a {
+  text-decoration: none;
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: hsl(203, 92%, 97%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border: 3px solid hsl(203, 92%, 97%);
+  overflow: hidden;
+}
+
+.item a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  z-index: 0;
+  scale: 1 0;
+  transform-origin: bottom;
+  transition: scale 0.5s ease;
+}
+
+.item:hover a::before {
+  scale: 1 1;
+}
+
+.conoceme-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+  background-color: #2ca6a4;
+}
+
+.icon {
+  font-size: 2rem;
+  color: hsl(203, 92%, 8%);
+  transition: 0.5s ease;
+  z-index: 2;
+}
+
+.item a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.item:nth-child(1) {
+  --bg-color: linear-gradient(to bottom right, #ee2a7b, #6228d7);
+}
+
+.item:nth-child(2) {
+  --bg-color: #0077b5;
+}
+
+.item:nth-child(3) {
+  --bg-color: #ff0000;
+}
+
+.item:nth-child(4) {
+  --bg-color: #000;
+}

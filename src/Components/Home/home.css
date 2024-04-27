@@ -1,0 +1,107 @@
+/* .rootHome{
+    height: 80vh;
+}
+
+.bodyHome{
+    flex: 1;
+}
+
+.image-container {
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 200px; /* ajusta el tamaño según tus necesidades */
+   /* height: auto; /* para mantener la proporción */
+   /* border-radius: 50%; /* para una imagen de perfil redonda */
+    /*border:#1884a4 4px solid;
+  } */
+
+  .rootHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* o 100vh si quieres que ocupe toda la altura de la ventana */
+}
+
+.bodyHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Esto separa la presentación y la imagen */
+    width: 80%; /* Ajusta al tamaño que prefieras */
+    max-width: 1200px; /* También puedes limitar el ancho máximo */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.presentacion {
+    max-width: 60%; /* Ajusta según el espacio que quieras dar a la presentación */
+}
+
+.presentacion h1 {
+    margin-bottom: 0.5em; /* Espacio debajo del h1 para separarlo del h3 */
+    font-size: 3rem;
+}
+
+.presentacion h3 {
+    font-weight: 400; /* Esto hace que la fuente sea más delgada y ligera */
+    font-size: 2rem; /* Ajusta el tamaño de la fuente a tu gusto */
+    line-height: 1.5; /* Aumenta el espacio entre líneas para una mejor legibilidad */
+    color: #424242; /* Un color más suave para el texto */
+    margin-top: 0; /* Elimina cualquier margen superior para unirlo más al h1 */
+    margin-bottom: 0.5em; /* Espacio debajo del h3 */
+}
+
+.proyectosHome {
+    padding: 10px 20px;
+    margin-top: 20px; /* Espacio por encima del botón */
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2ca6a4; /* Color del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.proyectosHome:hover {
+    background-color:#37dad9; /* Color más oscuro al pasar el ratón por encima */
+    color: #424242;
+}
+
+.image-container {
+    /* La margin-right puede no ser necesaria si usas justify-content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 250px; /* ajusta el tamaño según tus necesidades */
+    height: auto; /* para mantener la proporción */
+    border-radius: 50%; /* para una imagen de perfil redonda */
+    border: #1884a4 4px solid;
+    transition: transform 0.3s ease; /* transición suave al escalar */
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .bodyHome {
+        flex-direction: column; /* Los elementos se apilan verticalmente en pantallas pequeñas */
+        text-align: center; /* Asegura que el texto esté centrado en dispositivos móviles */
+    }
+
+    .presentacion {
+        max-width: 100%;
+        margin-bottom: 20px; /* Espacio entre la presentación y la imagen en móviles */
+    }
+
+    .image-container {
+        margin-right: 0;
+    }
+
+    .profile-image {
+        width: 150px; /* Una imagen más pequeña para dispositivos móviles */
+    }
+}
+

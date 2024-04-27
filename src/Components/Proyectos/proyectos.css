@@ -1,0 +1,48 @@
+.proyectos-container {
+    text-align: center; /* Centrar el título */
+    padding: 0.5rem; /* Espacio alrededor de la sección */
+  }
+  
+  .proyectos-titulo {
+    color:#1884a4;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .proyectos-grid {
+    display: flex;
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a la siguiente línea si no hay espacio */
+    gap: 1rem; /* Espacio entre tarjetas */
+  }
+  
+  .proyecto-card {
+    width: 300px; /* Ancho de las tarjetas */
+    border: 4px solid #1884a4; /* Borde para las tarjetas */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar el contenido que sobresalga */
+    padding: 1rem; /* Espacio debajo de la tarjeta */
+  }
+
+  .proyecto-card h3{
+    margin: 0.5rem;
+    color: #424242;
+  }
+  
+  .proyecto-card p{
+    margin: 0px;
+    font-size: 16px;
+    color: rgb(58, 67, 73);
+  }
+
+  .proyecto-card img {
+    width: 90%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de zoom */
+    margin-bottom: 0.5rem;
+  }
+  
+  .proyecto-card img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón por encima */
+  }
+  
