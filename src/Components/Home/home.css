@@ -74,6 +74,10 @@
         flex-direction: column; /* Cambia la dirección de fila a columna */
     }
 
+    .content-container{
+        align-content: center;
+    }
+
     .presentacion {
         order: 1;
         max-width: 90%; /* Ajusta para utilizar más espacio disponible */
@@ -100,6 +104,10 @@
 
     .bodyHome {
         width: 95%; /* Utiliza más espacio disponible */
+    }
+
+    .content-container{
+        align-content: center;
     }
 
     .presentacion {
