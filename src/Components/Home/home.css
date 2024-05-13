@@ -1,23 +1,5 @@
-/* .rootHome{
-    height: 80vh;
-}
 
-.bodyHome{
-    flex: 1;
-}
-
-.image-container {
-    margin-right: 20px;
-  }
-  
-  .profile-image {
-    width: 200px; /* ajusta el tamaño según tus necesidades */
-   /* height: auto; /* para mantener la proporción */
-   /* border-radius: 50%; /* para una imagen de perfil redonda */
-    /*border:#1884a4 4px solid;
-  } */
-
-  .rootHome {
+.rootHome {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,23 +67,58 @@
 }
 
 /* Media queries para responsividad */
+
 @media (max-width: 768px) {
+    /* Para tabletas y dispositivos más pequeños */
     .bodyHome {
-        flex-direction: column; /* Los elementos se apilan verticalmente en pantallas pequeñas */
-        text-align: center; /* Asegura que el texto esté centrado en dispositivos móviles */
+        flex-direction: column; /* Cambia la dirección de fila a columna */
     }
 
     .presentacion {
-        max-width: 100%;
-        margin-bottom: 20px; /* Espacio entre la presentación y la imagen en móviles */
+        order: 1;
+        max-width: 90%; /* Ajusta para utilizar más espacio disponible */
+        text-align: center; /* Centra el texto para mejor visualización en pantallas pequeñas */
     }
 
-    .image-container {
-        margin-right: 0;
+    .presentacion h1, .presentacion h3 {
+        font-size: calc(1.4rem + 0.5vw); /* Ajusta el tamaño de la fuente de manera dinámica */
     }
 
     .profile-image {
-        width: 150px; /* Una imagen más pequeña para dispositivos móviles */
+        order: 2;
+        width: 200px; /* Reducción del tamaño de la imagen para adaptarse a pantallas más pequeñas */
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* Para teléfonos móviles */
+    .rootHome {
+        height: auto; /* Cambia la altura para adaptarse al contenido */
+        padding: 20px 0; /* Agrega algo de espacio alrededor para no tocar los bordes */
+    }
+
+    .bodyHome {
+        width: 95%; /* Utiliza más espacio disponible */
+    }
+
+    .presentacion {
+        max-width: 100%; /* Usa todo el ancho disponible */
+        order: 1;
+    }
+
+    .presentacion h1, .presentacion h3 {
+        font-size: calc(1.2rem + 0.5vw); /* Más pequeño para dispositivos móviles */
+    }
+
+    .profile-image {
+        order: 2;
+        width: 180px; /* Más pequeña para teléfonos */
+    }
+
+    .proyectosHome{
+        font-size: 1rem;
+        margin: 10px;
     }
 }
 
