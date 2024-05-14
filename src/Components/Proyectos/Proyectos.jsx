@@ -9,7 +9,7 @@ const Proyectos = () => {
     {
       titulo: "Onlybooks",
       descripcion:
-        "OnlyBooks es el proyecto culminante que me llevó a la certificación como Professional Developers. Utilizando Java 21, React, y MySQL, logramos crear un sistema robusto y eficiente, respaldado por AWS y Terraform para una infraestructura escalable. Con un enfoque en la seguridad, nuestro sitio está protegido con HTTPS y mejorado con Nginx como reverse proxy.",
+        "OnlyBooks es el proyecto culminante que nos llevó a mis compañeros y a mí a certificarnos como Professional Developers. Utilizando Java 21, React, y MySQL, logramos crear un sistema robusto y eficiente, respaldado por AWS y Terraform para una infraestructura escalable. Con un enfoque en la seguridad, nuestro sitio está protegido con HTTPS y mejorado con Nginx como reverse proxy.",
       videoUrl:
         "https://www.linkedin.com/posts/fiorellacroccograppiolo_proyectofinal-techdeveloper-digitalhouse-activity-7140179153026293760-r7kK?utm_source=share&utm_medium=member_desktop",
       thumbnail: onlybooksThumbnail,
@@ -17,7 +17,7 @@ const Proyectos = () => {
     {
       titulo: "Clinica Odontológica",
       descripcion:
-        "El sistema de gestión para Clínica Odontológica es una solución integral para la administración de pacientes y turnos, desarrollada con Java, Spring Boot, y otras tecnologías back-end, complementada con Docker para despliegue eficiente. La interfaz, diseñada con HTML, Bootstrap y JavaScript, ofrece una experiencia de usuario intuitiva, contribuyendo significativamente a la eficiencia operativa del entorno odontológico.",
+        "El sistema de gestión para Clínica Odontológica es una solución integral para la administración de pacientes y turnos, desarrollada con Java, Spring Boot, y otras tecnologías backend, complementada con Docker para despliegue eficiente. La interfaz, diseñada con HTML, Bootstrap y JavaScript, ofrece una experiencia de usuario intuitiva, contribuyendo significativamente a la eficiencia operativa del entorno odontológico.",
       videoUrl:
         "https://www.linkedin.com/posts/fiorellacroccograppiolo_proyectofinal-clinicaodontologica-desarrolloweb-activity-7086437579897630721-gqFe?utm_source=share&utm_medium=member_desktop",
       thumbnail: odontologosThumbnail,

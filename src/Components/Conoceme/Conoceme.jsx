@@ -18,7 +18,7 @@ const Conoceme = () => {
           formación en Desarrollo de Software es sólida dado los conocimientos
           adquiridos a través de la carrera Certified Tech Developer creada por
           Globant y Mercado Libre junto con la Universidad Tecnológica del
-          Uruguay (UTEC), quien la respalda. Además de mis conocimientos previos
+          Uruguay (UTEC), quien la avala. Además de mis conocimientos previos
           como Full Stack Developer en 4Geeks Academy. Poseo una amplia gama de
           habilidades blandas y técnicas con experiencia práctica en el
           desarrollo de diversas aplicaciones junto con su respectivo
@@ -28,7 +28,7 @@ const Conoceme = () => {
           diseño gráfico, experiencia de usuario, planificación y gestión
           estratégica (especialmente en metodologías ágiles dado que desde que
           inicie mi intensa formación en tecnología hace ya 4 años siempre he
-          desempeñado el rol de Scrum Master) y por supuesto en desarollo,
+          desempeñado el rol de Scrum Master) y por supuesto en desarrollo,
           testing e infraestructura, junto con el desarrollo de mis habilidades blandas.
         </p>
       </div>
