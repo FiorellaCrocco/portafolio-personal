@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className={`header-right ${isOpen && isMobile ? 'open' : ''}`} style={{ display: isMobile && isOpen ? 'flex' : 'none' }}>
           <p className="secciones" onClick={() => handleNavigation('/')}>Inicio</p>
           <p className="secciones" onClick={() => handleNavigation('/proyectos')}>Proyectos</p>
-          <p className="secciones" onClick={() => handleNavigation('/conoceme')}>Conóceme</p>
+          <p className="secciones" onClick={() => handleNavigation('/conoceme')}>Conoceme</p>
           <p className="secciones" onClick={() => handleNavigation('/blog')}>Blog</p>
         </div>
         {!isMobile && (
