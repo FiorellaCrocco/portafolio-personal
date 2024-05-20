@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className="header-right">
             <p className="secciones" onClick={() => handleNavigation('/')}>Inicio</p>
             <p className="secciones" onClick={() => handleNavigation('/proyectos')}>Proyectos</p>
-            <p className="secciones" onClick={() => handleNavigation('/conoceme')}>Conóceme</p>
+            <p className="secciones" onClick={() => handleNavigation('/conoceme')}>Conoceme</p>
             <p className="secciones" onClick={() => handleNavigation('/blog')}>Blog</p>
           </div>
         )}
